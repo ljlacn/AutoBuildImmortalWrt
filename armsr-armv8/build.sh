@@ -49,8 +49,6 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - 开始构建QEMU-arm64固件..."
 
 
 # 定义所需安装的包列表 下列插件你都可以自行删减
-PACKAGES=""
-PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 # ======== shell/custom-packages.sh =======
